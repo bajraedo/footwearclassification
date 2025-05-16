@@ -75,5 +75,3 @@ Zugänglich via: https://footwearselection.azurewebsites.net
 curl -X POST http://localhost:8080/predictions/footwear \
 -T path/to/shoe.jpg
 ```
-
-Erstellt von @bajraedo im Rahmen der ZHAW-Lehrveranstaltung.
