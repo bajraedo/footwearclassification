@@ -21,6 +21,7 @@ Dieses Projekt wurde im Rahmen der Lehrveranstaltung **Model Deployment & Mainte
 
 ## Projektstruktur
 
+```text
 footwearclassification/
 ├── models/                 # Enthält .params Modell und synset.txt
 ├── src/                   # Java-Code (Spring Boot, Training, Inferenz)
@@ -30,6 +31,7 @@ footwearclassification/
 ├── Training.java          # DJL-Training
 ├── Models.java            # Modell-Ladeklasse
 └── README.md              # Diese Datei
+
 
 ## Installation & Lokaler Start
 
