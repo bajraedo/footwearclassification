@@ -31,7 +31,7 @@ footwearclassification/
 ├── Training.java          # DJL-Training
 ├── Models.java            # Modell-Ladeklasse
 └── README.md              # Diese Datei
-
+```
 
 ## Installation & Lokaler Start
 
