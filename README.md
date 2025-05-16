@@ -38,23 +38,21 @@ footwearclassification/
 
 ```
 
-## ⚙️ Installation & Lokaler Start
-1. Docker mit DJL Serving
+## ⚙️ Lokale Ausführung
+1. Projekt klonen:
 ```bash
-docker run --name djl-serving -d -p 8080:8080 \
-  -v ${PWD}/models:/opt/ml/model \
-  deepjavalibrary/djl-serving:0.31.0
+git clone https://github.com/bajraedo/footwearclassification.git
+cd footwearclassification
 ```
 
-2. Spring Boot lokal starten
+2. Abhängigkeiten installieren:
+```bash
+./mvnw clean install
+```
+
+3. Anwendung starten
 ```bash
 ./mvnw spring-boot:run
-```
-
-3. Docker Image bauen und starten
-```bash
-docker buildx build --platform linux/amd64 -t bajraedo/footwearclassification .
-docker run -p 8080:8080 bajraedo/footwearclassification
 ```
 
 ## 🌐 Azure Deployment
