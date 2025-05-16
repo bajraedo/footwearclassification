@@ -68,10 +68,7 @@ az webapp create \
   --deployment-container-image-name bajraedo/footwearclassification
 ```
 
-Zugänglich via:
-```text
-https://footwearselection.azurewebsites.net
-```
+Zugänglich via: https://footwearselection.azurewebsites.net
 
 ## 🔧 Beispiel Inferenz (DJL Serving direkt)
 ```bash
