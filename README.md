@@ -23,14 +23,22 @@ Dieses Projekt wurde im Rahmen der Lehrveranstaltung **Model Deployment & Mainte
 
 ```text
 footwearclassification/
-├── models/                 # Enthält .params Modell und synset.txt
-├── src/                   # Java-Code (Spring Boot, Training, Inferenz)
-├── Dockerfile             # Zum Bauen des Images
-├── index.html             # Frontend
-├── script.js              # JS zur Bildauswahl und Serverkommunikation
-├── Training.java          # DJL-Training
-├── Models.java            # Modell-Ladeklasse
-└── README.md              # Diese Datei
+├── .mvn/                             # Maven Wrapper-Verzeichnis
+├── .vscode/                          # VS Code Konfiguration
+├── models/                           # Enthält .params Modell und synset.txt
+├── src/                              # Java-Code (Spring Boot, Training, Inferenz)
+├── target/                           # Build-Output von Maven
+├── ut-zap50k-images-square/          # Datensatzbilder (original)
+├── ut-zap50k-images-square-small/    # Datensatzbilder (komprimiert)
+├── .dockerignore
+├── .gitattributes
+├── .gitignore
+├── Dockerfile                        # Für Docker Build
+├── HELP.md                           # Generierte Maven-Hilfe (optional)
+├── mvnw                              # Maven Wrapper (Unix)
+├── mvnw.cmd                          # Maven Wrapper (Windows)
+├── pom.xml                           # Maven-Projektkonfiguration
+└── README.md                         # Projektbeschreibung (diese Datei)
 ```
 
 ## Installation & Lokaler Start
