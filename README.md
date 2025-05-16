@@ -1,13 +1,16 @@
 # 👞👟Footwear Classification
-Dieses Projekt wurde im Rahmen der Lehrveranstaltung **Model Deployment & Maintenance** umgesetzt. Ziel war es, ein Bildklassifikationsmodell für verschiedene Schuharten (Boots, Sandals, Shoes, Slippers) zu trainieren, in eine Spring Boot Webanwendung zu integrieren und via Docker sowie Azure App Service bereitzustellen.
+Dieses Projekt wurde im Rahmen des Moduls **Model Deployment & Maintenance** umgesetzt. Ziel war es, ein Bildklassifikationsmodell für verschiedene Schuharten (Boots, Sandals, Shoes, Slippers) zu trainieren, in eine Spring Boot Webanwendung zu integrieren und via Docker sowie Azure App Service bereitzustellen.
 
-## 📊 Projektübersicht
-- **Modell:** Convolutional Neural Network (CNN), trainiert mit Deep Java Library (DJL)
-- **Klassifikation:** Schuhe nach Typ (Boots, Sandals, Shoes, Slippers)
-- **Serving:**
-  - via Spring Boot Webapp
-  - alternativ via DJL Serving im Docker-Container
-- **Deployment:** Azure App Service (Linux) mit Docker
+## 🛠️ Verwendete Technologien
+- **Java 21**
+- **Spring Boot**
+- **Deep Java Library (DJL)**
+  - `djl-api`, `djl-model-zoo`, `djl-pytorch-engine`, `djl-basicmodelzoo`
+- **Maven** zur Abhängigkeitsverwaltung
+- **Docker** für Containerisierung
+- **Azure App Service (Linux)** für das Deployment
+- **Bootstrap 5** im HTML-Frontend
+
 
 ## ⚡ Features
 - Bild-Upload über Weboberfläche
